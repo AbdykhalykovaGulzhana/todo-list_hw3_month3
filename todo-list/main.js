@@ -31,7 +31,7 @@ const createTask = (event) => {
     checkboxElement.setAttribute("type", "checkbox");
     checkboxElement.addEventListener("click", () => {
        taskElement.classList.add("completed");
-       alert("Task" + " " + taskElement + " is successfully completed.")
+       alert("Task" + " " + nameElement.innerText + " is successfully completed.")
     });
 
     let nameElement = document.createElement("span");
